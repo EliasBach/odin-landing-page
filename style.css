@@ -7,7 +7,7 @@ body {
     padding: 10;
   }
 
-.header {
+.header-section {
     background-color: #1f2937;
     height: 50px;
 }
@@ -32,7 +32,7 @@ body {
     height: 200px;
 }
 
-#footer {
+#footer-section {
     background-color: #1f2937;
     height: 50px;
 }
