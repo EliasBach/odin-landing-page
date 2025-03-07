@@ -1,28 +1,39 @@
-.pagewidth-box {
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
     display: flex;
-}
+    flex-direction: column;
+    margin: 10;
+    padding: 10;
+  }
 
 .header {
     background-color: #1f2937;
+    height: 50px;
 }
 
 .intro-section {
     background-color: #1e2937;
+    height: 300px;
 }
 
 .info-section {
     background-color: white;
+    height: 300px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    height: 250px;
 }
 
 .signup-section {
     background-color: white;
+    height: 200px;
 }
 
 #footer {
     background-color: #1f2937;
+    height: 50px;
 }
 
