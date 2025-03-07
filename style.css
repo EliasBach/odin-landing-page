@@ -10,30 +10,65 @@ body {
 .header-section {
     background-color: #1f2937;
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .intro-section {
     background-color: #1e2937;
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .info-section {
     background-color: white;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .quote-section {
     background-color: #E5E7EB;
     height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-section {
     background-color: white;
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#footer-section {
+.footer-section {
     background-color: #1f2937;
+    color: white;
     height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
 }
 
