@@ -1,0 +1,28 @@
+.pagewidth-box {
+    display: flex;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.intro-section {
+    background-color: #1e2937;
+}
+
+.info-section {
+    background-color: white;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.signup-section {
+    background-color: white;
+}
+
+#footer {
+    background-color: #1f2937;
+}
+
