@@ -22,6 +22,9 @@ body {
     font-size: small;
     font-weight: 100;
 }
+a {
+    color: #E5E7EB;
+}
 
 .intro-section {
     background-color: #1e2937;
@@ -44,13 +47,13 @@ body {
     height: auto;
     border-radius: 10px;
 }
-h2 {
+.title {
     font-size: 28px;
     font-weight: 1000;
     margin-bottom: -10px;
     margin-top: -10px;
 }
-h4 {
+.subtitle {
     color: #E5E7EB;
     font-size: 12px;
     font-weight: 200;
@@ -61,18 +64,35 @@ h4 {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
-h3 {
+.info-header {
     color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+.icons-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.icon-and-subtext {
+    width: 150px;
+    text-align: center;
 }
 .icon {
-    width: 100px;
+    width: 120px;
     height: auto;
     border-radius: 10px;
 }
-
+.icon-subtext {
+    font-size: 10px;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 10px;
+}
 
 .quote-section {
     background-color: #E5E7EB;
@@ -112,6 +132,4 @@ button {
     border-radius: 5px;
 }
 
-a {
-    color: #E5E7EB;
-}
+
