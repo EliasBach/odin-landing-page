@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-
+/* ----- */
 .header-section {
     background-color: #1f2937;
     color: white;
@@ -25,7 +25,7 @@ body {
 a {
     color: #E5E7EB;
 }
-
+/* ----- */
 .intro-section {
     background-color: #1e2937;
     color: white;
@@ -58,7 +58,7 @@ a {
     font-size: 12px;
     font-weight: 200;
 }
-
+/* ----- */
 .info-section {
     background-color: white;
     height: 350px;
@@ -94,7 +94,7 @@ a {
     color: #1f2937;
     margin: 10px;
 }
-
+/* ----- */
 .quote-section {
     background-color: #E5E7EB;
     height: 250px;
@@ -117,7 +117,7 @@ a {
     font-size: 14px;
     font-weight: 900;
 }
-
+/* ----- */
 .signup-section {
     background-color: white;
     height: 200px;
@@ -126,25 +126,44 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-
-.footer-section {
-    background-color: #1f2937;
-    color: white;
-    height: 50px;
+.signup-box {
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 5px;
+    
 }
-
+.signup-text-a {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+.signup-text-b {
+    color: #E5E7EB;
+    font-size: 10px;
+}
 button {
     height: 30px;
     width: 90px;
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
     border-radius: 5px;
 }
-
-
+/* ----- */
+.footer-section {
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
