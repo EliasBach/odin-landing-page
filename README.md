@@ -1,8 +1,9 @@
 # odin-landing-page
 ## The Odin Project Project 2
 This exercise asks to build a landing page, displaying a variety of information.\
-It is intended to test the following concepts:
-- basic CCS concepts, i.e. selector-property pairs
-- basic CCS properties relating to font, color, background
-- CCS properties relating to positioning, i.e. margin, padding, border
-- CSS properties relating to flexbox, i.e. display, flex-direction
+It is intended to test the following CSS concepts:
+- syntax: selector-property-value
+- selector specificity: id > class > type
+- properties relating to font, color, background
+- properties relating to positioning, i.e. margin, padding, border
+- properties relating to flexbox, i.e. display, flex-direction
