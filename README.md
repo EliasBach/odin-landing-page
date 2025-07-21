@@ -7,3 +7,6 @@ It is intended to test the following CSS concepts:
 - properties relating to font, color, background
 - properties relating to positioning, i.e. margin, padding, border
 - properties relating to flexbox, i.e. display, flex-direction
+
+## Demo
+Link to the demo site: [here](https://html-preview.github.io/?url=https://github.com/EliasBach/odin-landing-page/blob/main/index.html)
